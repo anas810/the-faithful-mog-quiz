@@ -313,7 +313,37 @@ export const QUESTION_POOL: QuizQuestion[] = [
     correctIndex: 2,
     difficulty: "hard",
   },
+  {
+    question: "What resource drains on every move in Axie: Den of Mysteries?",
+    options: ["Stamina", "Mana", "Health", "Shards"],
+    correctIndex: 0,
+    difficulty: "hard",
+  },
+  {
+    question: "What does one Key cost in Axie: Den of Mysteries 2.0?",
+    options: ["$0.50", "$1, down from $2", "$2, up from $1", "$5"],
+    correctIndex: 1,
+    difficulty: "hard",
+  },
+  {
+    question: "How many Keys can you spend on a single Axie: DoM 2.0 run?",
+    options: ["10", "25", "50", "100"],
+    correctIndex: 3,
+    difficulty: "hard",
+  },
+  {
+    question: "In Deed Season, how did players earn Silo and Raffle entries?",
+    options: [
+      "By spending Golden Corn and World's Eve items",
+      "By staking VALOR",
+      "By holding a Deed already",
+      "By beating Sir Jackalot ten times",
+    ],
+    correctIndex: 0,
+    difficulty: "hard",
+  },
 ];
+
 
 export type Rank = { title: string; blurb: string };
 
