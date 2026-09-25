@@ -184,6 +184,36 @@ export const QUESTION_POOL: QuizQuestion[] = [
     correctIndex: 0,
     difficulty: "medium",
   },
+  {
+    question: "Who is the boss waiting on floor 10 of Axie: Den of Mysteries 2.0?",
+    options: ["Kilnbane", "Sir Jackalot", "The Werewolf", "Lord Dragma"],
+    correctIndex: 0,
+    difficulty: "medium",
+  },
+  {
+    question: "Which currencies buy Keys in Axie: Den of Mysteries 2.0?",
+    options: ["USDC, RON, WETH or AXS", "BTC only", "SOL and AVAX", "Golden Corn only"],
+    correctIndex: 0,
+    difficulty: "medium",
+  },
+  {
+    question: "What is the total supply of Yield Fields Founding Deeds?",
+    options: ["1,000", "3,333", "5,555", "10,000"],
+    correctIndex: 1,
+    difficulty: "medium",
+  },
+  {
+    question: "Do you need a Deed to play Yield Fields?",
+    options: [
+      "Yes, a Deed is required",
+      "No — anyone can farm, Deed holders just get an extra loop",
+      "Only for co-op fields",
+      "Only during Season One",
+    ],
+    correctIndex: 1,
+    difficulty: "medium",
+  },
+
 
   // ── Hard: exact numbers and fine detail ──────────────────────────────
   {
