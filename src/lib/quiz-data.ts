@@ -81,6 +81,27 @@ export const QUESTION_POOL: QuizQuestion[] = [
     correctIndex: 1,
     difficulty: "easy",
   },
+  {
+    question: "Which blockchain does Axie: Den of Mysteries run on?",
+    highlight: "Axie: Den of Mysteries",
+    options: ["Arbitrum", "Ethereum mainnet", "Ronin", "Solana"],
+    correctIndex: 2,
+    difficulty: "easy",
+  },
+  {
+    question: "Who develops Maze of Gains, Yield Fields and Axie: Den of Mysteries?",
+    options: ["Sky Mavis", "Onchain Heroes", "Tioland", "Pixel Vault"],
+    correctIndex: 1,
+    difficulty: "easy",
+  },
+  {
+    question: "Which chain is Yield Fields built on?",
+    highlight: "Yield Fields",
+    options: ["Robinhood Chain", "Polygon", "Solana", "Optimism"],
+    correctIndex: 0,
+    difficulty: "easy",
+  },
+
 
   // ── Medium: economy, rooms, systems ──────────────────────────────────
   {
