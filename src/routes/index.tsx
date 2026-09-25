@@ -170,6 +170,7 @@ function Index() {
               </button>
             </div>
           </div>
+          </>
         )}
 
         {phase === "playing" && question && (
