@@ -81,6 +81,27 @@ export const QUESTION_POOL: QuizQuestion[] = [
     correctIndex: 1,
     difficulty: "easy",
   },
+  {
+    question: "Which blockchain does Axie: Den of Mysteries run on?",
+    highlight: "Axie: Den of Mysteries",
+    options: ["Arbitrum", "Ethereum mainnet", "Ronin", "Solana"],
+    correctIndex: 2,
+    difficulty: "easy",
+  },
+  {
+    question: "Who develops Maze of Gains, Yield Fields and Axie: Den of Mysteries?",
+    options: ["Sky Mavis", "Onchain Heroes", "Tioland", "Pixel Vault"],
+    correctIndex: 1,
+    difficulty: "easy",
+  },
+  {
+    question: "Which chain is Yield Fields built on?",
+    highlight: "Yield Fields",
+    options: ["Robinhood Chain", "Polygon", "Solana", "Optimism"],
+    correctIndex: 0,
+    difficulty: "easy",
+  },
+
 
   // ── Medium: economy, rooms, systems ──────────────────────────────────
   {
@@ -163,6 +184,36 @@ export const QUESTION_POOL: QuizQuestion[] = [
     correctIndex: 0,
     difficulty: "medium",
   },
+  {
+    question: "Who is the boss waiting on floor 10 of Axie: Den of Mysteries 2.0?",
+    options: ["Kilnbane", "Sir Jackalot", "The Werewolf", "Lord Dragma"],
+    correctIndex: 0,
+    difficulty: "medium",
+  },
+  {
+    question: "Which currencies buy Keys in Axie: Den of Mysteries 2.0?",
+    options: ["USDC, RON, WETH or AXS", "BTC only", "SOL and AVAX", "Golden Corn only"],
+    correctIndex: 0,
+    difficulty: "medium",
+  },
+  {
+    question: "What is the total supply of Yield Fields Founding Deeds?",
+    options: ["1,000", "3,333", "5,555", "10,000"],
+    correctIndex: 1,
+    difficulty: "medium",
+  },
+  {
+    question: "Do you need a Deed to play Yield Fields?",
+    options: [
+      "Yes, a Deed is required",
+      "No — anyone can farm, Deed holders just get an extra loop",
+      "Only for co-op fields",
+      "Only during Season One",
+    ],
+    correctIndex: 1,
+    difficulty: "medium",
+  },
+
 
   // ── Hard: exact numbers and fine detail ──────────────────────────────
   {
@@ -262,7 +313,37 @@ export const QUESTION_POOL: QuizQuestion[] = [
     correctIndex: 2,
     difficulty: "hard",
   },
+  {
+    question: "What resource drains on every move in Axie: Den of Mysteries?",
+    options: ["Stamina", "Mana", "Health", "Shards"],
+    correctIndex: 0,
+    difficulty: "hard",
+  },
+  {
+    question: "What does one Key cost in Axie: Den of Mysteries 2.0?",
+    options: ["$0.50", "$1, down from $2", "$2, up from $1", "$5"],
+    correctIndex: 1,
+    difficulty: "hard",
+  },
+  {
+    question: "How many Keys can you spend on a single Axie: DoM 2.0 run?",
+    options: ["10", "25", "50", "100"],
+    correctIndex: 3,
+    difficulty: "hard",
+  },
+  {
+    question: "In Deed Season, how did players earn Silo and Raffle entries?",
+    options: [
+      "By spending Golden Corn and World's Eve items",
+      "By staking VALOR",
+      "By holding a Deed already",
+      "By beating Sir Jackalot ten times",
+    ],
+    correctIndex: 0,
+    difficulty: "hard",
+  },
 ];
+
 
 export type Rank = { title: string; blurb: string };
 
