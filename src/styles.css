@@ -116,6 +116,18 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    cursor: url("/corn-cursor.png") 6 2, auto;
+  }
+
+  a,
+  button,
+  [role="button"],
+  summary,
+  label,
+  select,
+  input[type="checkbox"],
+  input[type="radio"] {
+    cursor: url("/corn-cursor.png") 6 2, pointer;
   }
 }
 
