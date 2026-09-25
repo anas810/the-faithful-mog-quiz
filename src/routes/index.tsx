@@ -3,6 +3,8 @@ import { createFileRoute } from "@tanstack/react-router";
 import { QUESTION_POOL, getRank, type QuizQuestion } from "@/lib/quiz-data";
 import { cardPath, tweetUrl } from "@/lib/share";
 import bannerUrl from "@/assets/featured-game-banner.gif";
+import wordMazeUrl from "@/assets/word-maze.png";
+import wordGainsUrl from "@/assets/word-gains.png";
 import { BrandWordmark } from "@/components/brand-wordmark";
 
 export const Route = createFileRoute("/")({
@@ -115,7 +117,29 @@ function Index() {
 
       <main className="relative mx-auto w-full max-w-3xl grow px-5 py-10 sm:px-8 sm:py-14">
         {phase === "start" && (
-          <div className="rise rounded-[28px] border-4 border-black bg-card p-6 shadow-[0_10px_0_#000] sm:p-10">
+          <>
+            <div
+              aria-hidden="true"
+              className="pointer-events-none fixed left-1 top-1/2 z-0 hidden h-[430px] w-[120px] -translate-y-1/2 items-center justify-center lg:flex xl:left-6"
+            >
+              <img
+                src={wordMazeUrl}
+                alt=""
+                className="h-auto w-[430px] max-w-none -rotate-90 [image-rendering:pixelated] drop-shadow-[0_8px_0_rgba(0,0,0,0.6)]"
+              />
+            </div>
+            <div
+              aria-hidden="true"
+              className="pointer-events-none fixed right-1 top-1/2 z-0 hidden h-[430px] w-[120px] -translate-y-1/2 items-center justify-center lg:flex xl:right-6"
+            >
+              <img
+                src={wordGainsUrl}
+                alt=""
+                className="h-auto w-[430px] max-w-none rotate-90 [image-rendering:pixelated] drop-shadow-[0_8px_0_rgba(0,0,0,0.6)]"
+              />
+            </div>
+          <div className="rise relative z-10 rounded-[28px] border-4 border-black bg-card p-6 shadow-[0_10px_0_#000] sm:p-10">
+
             <span className="font-mono text-[10px] uppercase tracking-[0.25em] text-volt">
               Knowledge gauntlet
             </span>
@@ -146,6 +170,7 @@ function Index() {
               </button>
             </div>
           </div>
+          </>
         )}
 
         {phase === "playing" && question && (
