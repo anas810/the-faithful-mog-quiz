@@ -116,7 +116,7 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
-    cursor: url("/corn-cursor.png") 6 2, auto;
+    cursor: url("/corn-cursor.png") 8 2, auto;
   }
 
   a,
@@ -127,7 +127,7 @@
   select,
   input[type="checkbox"],
   input[type="radio"] {
-    cursor: url("/corn-cursor.png") 6 2, pointer;
+    cursor: url("/corn-cursor.png") 8 2, pointer;
   }
 }
 
